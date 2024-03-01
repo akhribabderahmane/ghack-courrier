@@ -16,18 +16,18 @@ import Testimonials from "../../components/hero/Testimonials";
 
 const Hero = () => {
   return (
-    <main className=" px-12">
+    <main className=" ">
        <Navbar/>
        <HeroSection />
        <Features />
        <Video />
        <IAinbox />
        <NewsLettter/>
-       <Partners/>
+       {/* <Partners/>
        <Testimonials />
        <Pricing />
        <ContactUs/>
-       <Footer/>
+       <Footer/> */}
     </main>
   );
 };
