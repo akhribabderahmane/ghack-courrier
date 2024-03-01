@@ -6,8 +6,7 @@ import SingUp from './pages/signup'
 function App() {
   return (
       <div className=' max-w-7xl mx-auto'>
-        {/* <Hero /> */}
-        <SingUp/>
+        <Hero />
       </div>
   )
 }
