@@ -1,8 +1,12 @@
 import React from 'react'
-
+import productVideo from "../../assets/video/Front - Customer Operations Platform.mp4"
 const Video = () => {
   return (
-    <div>Video</div>
+    <div className='  px-12 flex justify-center items-center my-10'>
+      <video src={productVideo}  autoPlay loop muted className=' w-[70vw] aspect-video'>
+        <source src={productVideo} type="video/mp4" />
+      </video>
+    </div>
   )
 }
 

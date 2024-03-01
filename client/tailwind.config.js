@@ -11,7 +11,7 @@ export default {
         "primary":"#2091F9",
         "grey":"#374754",
         "dark-grey":"#252B42",
-
+        "darker-blue":"#252B42"
 
 
       }
@@ -19,4 +19,3 @@ export default {
   },
   plugins: [],
 }
-
