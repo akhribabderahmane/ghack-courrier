@@ -5,8 +5,8 @@ import Workspace from './pages/workspace'
 
 function App() {
   return (
-      <div className=' max-w-7xl mx-auto'>
-        {/* <Hero /> */}
+      <div >
+        <Hero />
         <Workspace />
       </div>
   )
