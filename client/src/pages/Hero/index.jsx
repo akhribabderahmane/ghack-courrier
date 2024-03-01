@@ -16,7 +16,7 @@ import Testimonials from "../../components/hero/Testimonials";
 
 const Hero = () => {
   return (
-    <main className=" px-12">
+    <main >
        <Navbar/>
        <HeroSection />
        <Features />
