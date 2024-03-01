@@ -1,7 +1,6 @@
 
 import './App.css'
 import Hero from './pages/Hero'
-import SingUp from './pages/signup'
 
 function App() {
   return (
