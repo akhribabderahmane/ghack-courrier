@@ -17,7 +17,7 @@ import Testimonials from "../../components/hero/Testimonials";
 const Hero = () => {
   return (
 
-    <main className=" ">
+    <main className="bg-gradient-to-r from-red-100 to-cyan-200 ">
 
        <Navbar/>
        <HeroSection />
@@ -25,11 +25,11 @@ const Hero = () => {
        <Video />
        <IAinbox />
        <NewsLettter/>
-       {/* <Partners/>
+        <Partners/>
        <Testimonials />
        <Pricing />
        <ContactUs/>
-       <Footer/> */}
+       <Footer/> 
     </main>
   );
 };

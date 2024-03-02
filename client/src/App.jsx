@@ -1,13 +1,16 @@
 
 import './App.css'
-import Hero from './pages/Hero'
+import Chat from './components/chat/chat'
+import HeroSection from './pages/Hero'
 import Workspace from './pages/workspace'
 
 function App() {
   return (
       <div >
-        <Hero />
-        <Workspace />
+        <Chat></Chat>
+        <HeroSection></HeroSection>
+        {/** <HeroSection />
+        <Workspace /> */}
       </div>
   )
 }

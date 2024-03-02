@@ -2,9 +2,9 @@ import React from "react";
 import illustration from "../../assets/Rectangle 9.png";
 const HeroSection = () => {
   return (
-    <div className="px-12 bg-darkBlue text-white flex flex-row items-center h-screen">
+    <div className="px-12 bg-darkBlue rounded-b-3xl text-white flex flex-row items-center h-screen">
       <div className="w-1/2 flex flex-col gap-4 justify-center pl-20">
-        <h1 className=" font-bold text-2xl">
+        <h1 className=" font-bold text-3xl">
           Streamline Your Communication,<br></br> Supercharge Your Efficiency.
         </h1>
         <div>
