@@ -28,11 +28,9 @@ function Chat() {
 
   return (
     <>
-      <Searchbar />
-      <div className="flex flex-row">
-        <div className="w-1/6 h-screen bg-yellow-100">Left Sidebar Content</div>
-        <div className="bg-light-grey w-screen h-screen flex justify-center items-center">
-          <div className="h-[70%] w-[60%] bg-white rounded-2xl shadow-[0px_0px_10px_0px_#3E3E40]">
+      <div className="flex justify-center items-center h-full">
+      <div className="bg-light-grey w-full h-[100%] flex justify-center items-start">
+          <div className="h-[70%] w-[60%] bg-white rounded-2xl shadow-[0px_0px_10px_0px_#3E3E40] mt-16">
             <div className="h-[10%] rounded-t-2xl rounded-b-none border-2 px-6 border-light-grey flex items-center justify-between">
               <p className="text-lg font-semibold">New Discussion</p>
               <div className="flex flex-row">
@@ -137,9 +135,6 @@ function Chat() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="h-screen bg-yellow-100 w-[5%]">
-          Right Sidebar Content
         </div>
       </div>
     </>

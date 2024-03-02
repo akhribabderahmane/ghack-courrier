@@ -15,6 +15,7 @@ import Archived from "../../components/inbox/inboxes/Archived";
 import Snoozed from "../../components/inbox/inboxes/Snoozed";
 import Trash from "../../components/inbox/inboxes/Trash";
 import Open from "../../components/inbox/inboxes/Open";
+import Chat from "../../components/chat/chat";
  
 
 const Workspace = () => {
@@ -23,6 +24,7 @@ const Workspace = () => {
       <Searchbar />
       <div>
         <Routes>
+          <Route></Route>
           <Route path="inbox" element={<Inbox />}>
             <Route  path="inboxes" element={<Inboxes />}>
                <Route index element={<Open />} />
@@ -34,6 +36,7 @@ const Workspace = () => {
             <Route path="starred" element={<Starred />} />
             <Route path="draft" element={<Draft />} />
             <Route path="sent" element={<Sent />} />
+            <Route path="chat" element={<Chat />} />
           </Route>
           <Route path="calender" element={<Calender />} />
           <Route path="contact" element={<Contact />} />

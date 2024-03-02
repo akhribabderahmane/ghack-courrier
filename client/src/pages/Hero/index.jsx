@@ -18,7 +18,6 @@ const Hero = () => {
   return (
 
     <main className="bg-gradient-to-r from-red-100 to-cyan-200 ">
-
        <Navbar/>
        <HeroSection />
        <Features />
