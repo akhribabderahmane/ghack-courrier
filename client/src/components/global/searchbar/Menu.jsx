@@ -1,10 +1,8 @@
 import React from 'react'
-import { IoMdSettings } from "react-icons/io";
 import { FaInbox } from "react-icons/fa6";
 import { IoCalendarNumber } from "react-icons/io5";
 import { BsPersonSquare } from "react-icons/bs";
 import { IoStatsChart } from "react-icons/io5";
-import { FaBookOpen } from "react-icons/fa";
 import MenuItem from './MenuItem';
 
 const items=[
@@ -24,10 +22,10 @@ const items=[
     link:"/stats",
     icon:IoStatsChart
   },
-  {
-    link:"/knowledg",
-    icon:FaBookOpen
-  },
+  // {
+  //   link:"/knowledg",
+  //   icon:FaBookOpen
+  // },
 ]
 const Menu = () => {
   return (
