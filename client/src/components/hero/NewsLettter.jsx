@@ -1,3 +1,4 @@
+
 import React from 'react'
 import illustration from "../../assets/images/undraw_newsletter_vovu.png"
 const NewsLettter = () => {
@@ -24,4 +25,4 @@ const NewsLettter = () => {
   )
 }
 
-export default NewsLettter
+export default NewsLettter;
