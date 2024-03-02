@@ -10,12 +10,9 @@ import { deepOrange } from '@mui/material/colors';
 const Searchbar = () => {
   return (
     <div className=' px-8 py-2 bg-darker-blue flex  items-center justify-between gap-x-3'>
-      <div className=' flex flex-row gap-20'>
+      <div className=' flex flex-row gap-32'>
       <div className=' flex flex-row'>
        <Menu />
-       <button className='bg-transparent hover:bg-[#b4b0b036] p-3 rounded-lg'>
-        <CiMenuKebab className='scale-[1.5] text-slate-100 opacity-75 hover:opacity-95' />
-       </button>
       </div>
        <div>
         <SearchField />
